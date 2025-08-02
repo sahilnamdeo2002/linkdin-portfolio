@@ -251,12 +251,50 @@ section {
   margin-top: 2rem;
 }
 
+/* .section__pic-container {
+  display: flex;
+  height: 800px;
+  width: 800px;
+  margin: auto 0;
+} */
+
+
 .section__pic-container {
   display: flex;
-  height: 400px;
-  width: 400px;
+  justify-content: center;
+  align-items: center;
+  height: auto; /* or keep 800px if needed */
+  width: auto;
   margin: auto 0;
 }
+
+.section__pic-container img {
+  width: 600px;     /* Increase this value as needed */
+  height: 600px;    /* Or use 'auto' to maintain aspect ratio */
+  object-fit: cover; /* Or 'contain' depending on layout */
+  border-radius: 50%; /* Optional: makes it circular */
+}
+
+
+.section__pic-container1{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto; /* or keep 800px if needed */
+  width: auto;
+  margin: auto 0;
+
+}
+
+.section__pic-container1 img {
+  width: 400px;     /* Increase this value as needed */
+  height: 400px;    /* Or use 'auto' to maintain aspect ratio */
+  object-fit: cover; /* Or 'contain' depending on layout */
+
+}
+
+
+
 
 .section__text {
   align-self: center;
